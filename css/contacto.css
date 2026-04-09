@@ -8,7 +8,7 @@
     padding: 40px;
     border-radius: 8px;
     width: 100%;
-    max-width: 600px; /* Control de ancho en PC */
+    max-width: 600px; /*Control de ancho en PC */
 }
 
 .form-group {
@@ -19,7 +19,8 @@
 
 .form-group label {
     margin-bottom: 8px;
-    color: #cc0000;
+    /* color: #cc0000; */
+    color: #C6C6C6;
 }
 
 .form-group input, 
@@ -47,5 +48,5 @@ button[type="reset"] {
     font-weight: bold;
 }
 
-button[type="submit"] { background: #cc0000; color: white; }
+button[type="submit"] { background: #2A6BAC; color: white; }
 button[type="reset"] { background: #555; color: white; }

@@ -10,15 +10,17 @@
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/galeria.css">
     <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
 
     <header>
-        <nav class="navbar"> <div class="logo">MUSTANG, <span>EL LEGADO</span></div>
+        <nav class="navbar"> <div class="logo"><img src="img/logo_ford.png"> <span>MUSTANG</span></div>
             <ul>
-                <li><a href="#home">Inicio</a></li> <li><a href="#modelos">Modelos</a></li>
-                <li><a href="#galeria">Galería</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#home"><i class="fas fa-home"></i> Inicio</a></li> 
+                <li><a href="#modelos"><i class="fas fa-car"></i> Modelos</a></li>
+                <li><a href="#galeria"><i class="fas fa-image"></i> Galería</a></li>
+                <li><a href="#contacto"><i class="fas fa-person"></i> Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -26,9 +28,9 @@
     <main>
         <section id="home" class="section-full">
             <div class="hero-content">
-                <h1>Ford Mustang</h1>
+                <h1><i class="fas fa-gas-pump"></i> Ford Mustang</h1>
                 <p>El rugido que cambió la historia del automovilismo.</p>
-                <i class="fas fa-gas-pump"></i> </div>
+            </div>
         </section>
 
         <section id="modelos" class="section-full">
@@ -50,15 +52,25 @@
         <section id="galeria" class="section-full">
             <h2>Galería de Generaciones</h2>
             <div class="grid-galeria">
-                <img src="img/g1.jpg" alt="Mustang G1">
-                <img src="img/g2.jpg" alt="Mustang G2">
-                <img src="img/g3.jpg" alt="Mustang G3">
-                <img src="img/g4.jpg" alt="Mustang G4">
-                <img src="img/g5.jpg" alt="Mustang G5">
-                <img src="img/g6.jpg" alt="Mustang G6">
-                <img src="img/g7.jpg" alt="Mustang G7">
+                <img class="item-1" src="img/g1.jpg">
+                <img class="item-2" src="img/g2.jpg">
+                <img class="item-3" src="img/g3.jpg">
+                <img class="item-4" src="img/g4.jpg">
+                <img class="item-5" src="img/g5.jpg">
+                <img class="item-6" src="img/g6.jpg">
+                <img class="item-7" src="img/g7.jpg">
             </div>
         </section>
+
+        <!-- MODAL -->
+        <div id="modal" class="modal" onclick="cerrarFuera(event)">
+            <span class="cerrar" onclick="cerrarModal()">&times;</span>
+            <img class="modal-contenido" id="imgModal">
+
+            <button class="prev" onclick="anterior()">&#10094;</button>
+            <button class="next" onclick="siguiente()">&#10095;</button>
+        </div>
+        <!-- MODAL -->
 
         <section id="contacto" class="section-full">
             <h2>Únete al Club</h2>
@@ -89,14 +101,21 @@
                     <textarea id="mensaje" name="mensaje"></textarea>
                 </div>
                 <div class="buttons">
-                    <button type="submit">Enviar</button> <button type="reset">Limpiar</button>
+                    <button type="submit">Enviar</button> 
+                    <button type="reset">Limpiar</button>
                 </div>
             </form>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Proyecto UTN - Historia del Mustang | <i class="fas fa-car"></i></p> </footer>
+    <footer class="footer">
+        <div>
+            <p>Ford Mustang | <span>Rodolfo José Ferreyra</span></p> 
+            <p>Jujuy | Argentina</p> 
+            <p>&copy; 2026</p> 
+        </div>
+    </footer>
+    <script src="js/galeria.js"></script>
 
 </body>
 </html>

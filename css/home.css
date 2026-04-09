@@ -1,16 +1,22 @@
 #home {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                url('../img/hero.png') no-repeat center center/cover;
+                url('../img/hero.jpg') no-repeat center center/cover;
     width: 100%;
     text-align: center;
 }
 
 .hero-content h1 {
-    font-size: 5rem;
-    color: #cc0000;
+    font-size: 4.5rem;
+    color:rgb(27, 53, 126);
 }
 
-.hero-content i {
-    font-size: 3rem;
+.hero-content p{
+    font-size:large;
+}
+
+.hero-content h1 i {
+    font-size: 4rem;
     margin-top: 20px;
+    color:rgb(27, 53, 126);
+    /* color: #fff; */
 }
