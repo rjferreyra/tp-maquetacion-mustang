@@ -14,9 +14,17 @@
     font-size:large;
 }
 
-.hero-content h1 i {
-    font-size: 4rem;
-    margin-top: 20px;
+.hero-content h1 {
+    font-size: 8rem;
+    margin-top: 10px;
     color:rgb(27, 53, 126);
-    /* color: #fff; */
+    display: flex;
+    justify-content: center;
+}
+.hero-content h1 img{
+    padding:10px;
+}
+.hero-content p {
+    font-size: 1.7rem;
+    margin-top: 10px;
 }

@@ -31,7 +31,8 @@ h1, h2, h3 {
 }
 
 .section-full h2{
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+    font-size: 30px;
 }
 
 /* Navbar Estilo */
@@ -56,9 +57,12 @@ h1, h2, h3 {
     color: white;
     text-decoration: none;
     margin: 0 15px;
-    transition: 0.7s;
+    transition: 0.5s;
 }
-
+.navbar ul li a {
+    font-size: large;
+}
+ 
 .navbar ul li a:hover {
     /* color: #cc0000; */
     color: #2A6BAC;
@@ -71,5 +75,5 @@ h1, h2, h3 {
 } */
 
 .logo img{
-    width: 40px;
+    width: 100px;
 }
