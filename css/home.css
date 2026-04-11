@@ -36,18 +36,18 @@
     }
 
     .hero-content h1 {
-        font-size: 40px;
-        flex-direction: column; /* logo debajo o arriba */
-        gap: 5px;
+        font-size: 50px;
+        flex-direction: row; /* logo debajo o arriba */
+        gap: 2px;
         align-items: center;
     }
 
     .hero-content img {
-        width: 60px;
+        width: 80px;
     }
 
     .hero-content p {
-        font-size: 16px;
+        font-size: 14px;
         padding: 0 10px;
     }
 }

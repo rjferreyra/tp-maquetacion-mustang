@@ -9,10 +9,11 @@
     border-radius: 8px;
     width: 100%;
     max-width: 600px; /*Control de ancho en PC */
+    margin: auto;
 }
 
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -50,3 +51,11 @@ button[type="reset"] {
 
 button[type="submit"] { background: #2A6BAC; color: white; }
 button[type="reset"] { background: #555; color: white; }
+
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+    .contacto-form {
+        width: 90%;
+    }
+}
