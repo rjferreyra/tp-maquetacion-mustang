@@ -28,3 +28,26 @@
     font-size: 1.7rem;
     margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+    #home {
+        height: auto; /* 🔥 clave */
+        padding: 60px 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 40px;
+        flex-direction: column; /* logo debajo o arriba */
+        gap: 5px;
+        align-items: center;
+    }
+
+    .hero-content img {
+        width: 60px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+}
