@@ -23,7 +23,7 @@ h1, h2, h3 {
 
 .section-full {
     min-height: 100vh;
-    padding: 80px 20px;
+    padding: 40px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,4 +76,32 @@ h1, h2, h3 {
 
 .logo img{
     width: 100px;
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .logo img{
+        width: 70px;
+    }
+
+    .texto {
+        display: none;
+    }
+
+    .navbar ul li a i {
+        font-size: 20px;
+    }
+    .navbar {
+        position: fixed;
+        top: 0;
+    }
 }
