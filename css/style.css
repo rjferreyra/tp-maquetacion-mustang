@@ -5,10 +5,6 @@
     scroll-behavior:smooth;
 }
 
-/* html {
-  scroll-behavior:smooth;
-} */
-
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -64,15 +60,8 @@ h1, h2, h3 {
 }
  
 .navbar ul li a:hover {
-    /* color: #cc0000; */
     color: #2A6BAC;
 }
-
-/* .logo i{
-    padding: 5px 5px;
-    color: #47A8E5;
-    color:rgb(27, 53, 126);
-} */
 
 .logo img{
     width: 100px;
