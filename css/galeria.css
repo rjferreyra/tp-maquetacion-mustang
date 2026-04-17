@@ -1,10 +1,4 @@
 .grid-galeria {
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 13px;
-    width: 90%;
-    max-width: 1200px; */
-
     display: grid;
     grid-template-columns: 1fr; 
     grid-auto-rows: 200px; 
@@ -13,12 +7,6 @@
 }
 
 .grid-galeria img {
-    /* width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 5px;
-    filter: grayscale(50%);
-    transition: 0.3s; */
     background-size: cover;
     background-position: center;
     border-radius: 5px;
@@ -100,7 +88,7 @@
     }
 }
 
-/* 3. DESKTOP (Desde 1024px de ancho - El diseño de tu imagen) */
+/* 3. DESKTOP (Desde 1024px de ancho) */
 @media (min-width: 1024px) {
     .grid-galeria {
         grid-template-columns: repeat(2, 1fr); /* Volvemos a las 4 columnas */

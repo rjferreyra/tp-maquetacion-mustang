@@ -31,13 +31,13 @@
 
 @media (max-width: 768px) {
     #home {
-        height: auto; /* 🔥 clave */
+        height: auto;
         padding: 60px 20px;
     }
 
     .hero-content h1 {
         font-size: 50px;
-        flex-direction: row; /* logo debajo o arriba */
+        flex-direction: row;
         gap: 2px;
         align-items: center;
     }
